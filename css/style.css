@@ -1,0 +1,266 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    background-color: #ffffff;
+    background-image: url("../images/vector-gezicht-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: black;
+    margin-left: 32em;
+    border-radius: 50px;
+    position: fixed;
+    width: 30%;
+    top: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    padding: 10px;
+    transition: 0.3s;
+}
+
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    transition: 600ms ease;
+
+}
+
+nav li:hover {
+    border-radius: 100px;
+    background-color: #7bd1ff;
+    
+}
+
+nav a:hover{
+    color: black;
+
+}
+
+.hero {
+    display: flex;
+    align-items: end;
+    background-color: #ffffff;
+    margin-right: 50vw;
+    margin-top: 9em;
+}
+
+.hero img {
+    padding-top: 5em;
+    margin-left: 10em;
+}
+
+.hero-tekst h1 {
+    margin-left: 120px
+}
+
+.hero-tekst p {
+    margin-left: 120px
+}
+
+h1 {
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 80px;
+}
+
+section p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1em;
+    line-height: 24px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+h3 {
+    margin-left: 120px;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 80px;
+}
+
+.kopjes p{
+    padding-left: 120px;
+    margin-right: 50vw;
+    margin-bottom: 4em;
+}
+
+.video-container{
+    display: flex;
+    justify-content: left;
+    padding-top: 60px;
+    padding-left: 120px;
+}
+
+video {
+    padding-right: 40px;
+    width: 20em;
+    margin-bottom: 4em;
+}
+
+.zie-meer-videos {
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    margin-left: 120px;
+    transition: 300ms ease;
+    text-decoration: none;
+
+}
+
+.zie-meer-videos:hover {
+    border-radius: 100px;
+    background-color: #2593CE;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.leer-ons-kennen {
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    margin-left: 120px;
+    transition: 300ms;
+    text-decoration: none;
+}
+
+.leer-ons-kennen:hover {
+    border-radius: 100px;
+    background-color: #2593CE;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+footer {
+    padding: 1em;
+    background-color: black;
+    height: 7em;
+    margin-top: 10em;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: #2593CE;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s;
+
+}
+
+footer a:hover{
+    border-radius: 100px;
+    background-color: #2593CE;
+    cursor: pointer;
+}
+
+/* about us pagina begint hier */ 
+
+body {
+    background-color: #ffffff;
+    background-image: url("../images/vector-gezicht-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 0;
+}
+
+.hero-about-us {
+    margin-right: 50vw;
+    margin-top: 9em;
+}
+
+.hero-tekst-about-us h1 {
+    margin-left: 120px;
+    margin-top: 340px;
+}
+
+.hero-tekst-about-us p {
+    margin-left: 120px;
+}
+
+.presentator p {
+    margin-left: 120px;
+    margin-right: 50vw;
+}
+
+.presentator {
+    display: flex;
+    justify-content: space-around;
+}
+
+.presentator img {
+    transform: translateY(-41%) scaleX(-1);
+    position: absolute;
+    right: 0;
+}
+
+/* afleveringen pagina begint hier */
+
+.podcasts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    margin-bottom: 200px;
+}
+
+article img {
+    width: 20em;
+    padding-right: 16px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 4px;
+}
